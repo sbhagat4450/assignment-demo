@@ -3,104 +3,200 @@
  /* colour selection for the background */
  /* Type selector */
  /* Styling the whole page body */
+
  body {
-     max-width: 1200px;
-     margin: 0 center;
+     max-width: max-content;
+
+     margin: 10 center;
      padding: 2rem;
-     border: 0.5rem solid rgb(3, 3, 20);
+
      background-color: rgb(152, 152, 190);
+
+
+
  }
 
- /* Now i am styling the heaader */
- header {
-     background: linear-gradient(to right, white, blue);
+ main {
+     float: left;
+     width: 60%;
+
+
+     /* Now i am styling the heaader */
+     header {
+         background: linear-gradient(to right, white, blue);
+         text-align: center;
+         padding: 2rem;
+
+     }
+
+     /* /* now i will make the h1 to the center and chnage the colour to black* */
+     h1 {
+         color: black;
+         text-align: center;
+         font-weight: bold;
+         font: size 20px;
+         font-variant: normal;
+     }
+
+     /* /* now styling the h2 to the center and  changing its colour into bule */
+     h2 {
+         color: rgb(16, 16, 19);
+         text-align: center;
+         font-size: xx-large;
+
+     }
+
+     /* now am stwling the blackqoute and p1 inside the box it importamt to have the grey shadow on the left side */
+     h3 {
+         background-color: white;
+         box-shadow: -10px 10px black;
+         padding: 1.5rem;
+         margin: 2rem auto;
+         width: 80%;
+         font-style: italic;
+         font-size: 1rem;
+         line-height: 1.6;
+
+
+     }
+
+     /* now makin the image in the center and inside the box */
+     .center {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 60%;
+     }
+
+     /* adding gallery into the center  */
+     h4 {
+         color: black;
+         text-align: center;
+         font-size: xx-large;
+     }
+
+     /* adding the image intot the box with the text   */
+     figure {
+         float: center;
+         width: 90%;
+         text-align: center;
+         font-style: italic;
+         font-size: xx-large;
+         text-indent: 0;
+         border: thick rgb(12, 11, 11) solid;
+         margin: 1.5rem;
+         padding: 1.5rem;
+         background-color: white
+     }
+
+     /* now adding thr famous qoute into the box  */
+     .Quotes {
+
+         font-size: xx-large;
+         text-align: center;
+
+         width: 90%;
+         padding: 1.5rem;
+         font-style: italic;
+         color: black;
+         background-color: white;
+         text-align: center;
+
+         border: 5px solid black;
+         padding: 50px;
+         margin: 20px;
+     }
+
+     /* now displaying the heading of the video in the center  */
+
+     h6 {
+         color: black;
+         text-align: center;
+         font-size: xx-large;
+     }
+
+
+
+     aside {
+         float: right;
+         width: 30%;
+         padding: auto;
+         box-sizing: border-box;
+         font-size: xx-large;
+
+     }
+
+     link {
+         text-align: top;
+
+     }
+ }
+
+
+ aside {
+     float: right;
+     width: 30%;
+     margin-top: -150rem;
+     margin-bottom: -150rem;
+ }
+
+ html {
+     border: solid;
+     border-radius: 3px;
+     margin: 15px;
+ }
+
+ .Links {
+     font-size: xx-large;
+     text-align: right;
+     color: black;
+
+     a:visited {
+         color: green;
+     }
+
+     a:hover {
+         color: red;
+
+     }
+
+     a:active {
+         color: yellow;
+     }
+
+ }
+
+ .Info {
+     font-size: xx-large;
+     text-align: auto;
+     color: black;
+     margin-top: 8rem;
+     margin-bottom: 6rem;
+     text-align: right;
+     margin-left: 6px;
+     ;
+
+
+ }
+
+ .h8 {
+     font-size: xx-large;
      text-align: center;
+     color: blue;
+
+ }
+
+ .Contact {
+     margin-top: 15rem;
+     margin-left: 15rem;
+ }
+
+ footer {
+     text-align: center;
+     margin-bottom: 150rem;
+     margin-top: 150rem;
+     margin-right: 60rem;
+     background: linear-gradient(to right, white, blue);
      padding: 2rem;
 
- }
-
- /* /* now i will make the h1 to the center and chnage the colour to black* */
- h1 {
-     color: black;
-     text-align: center;
-     font-weight: bold;
-     font: size 20px;
-     font-variant: normal;
- }
-
- /* /* now styling the h2 to the center and  changing its colour into bule */
- h2 {
-     color: rgb(16, 16, 19);
-     text-align: center;
-     font-size: xx-large;
-
- }
-
- /* now am stwling the blackqoute and p1 inside the box it importamt to have the grey shadow on the left side */
- h3 {
-     background-color: white;
-     box-shadow: -10px 10px black;
-     padding: 1.5rem;
-     margin: 2rem auto;
-     width: 80%;
-     font-style: italic;
-     font-size: 1rem;
-     line-height: 1.6;
-
-
- }
-
- /* now makin the image in the center and inside the box */
- .center {
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 50%;
- }
-
- /* adding gallery into the center  */
- h4 {
-     color: black;
-     text-align: center;
-     font-size: xx-large;
- }
-
- /* adding the image intot the box with the text   */
- figure {
-     float: center;
-     width: 90%;
-     text-align: center;
-     font-style: italic;
-     font-size: xx-large;
-     text-indent: 0;
-     border: thick rgb(12, 11, 11) solid;
-     margin: 1.5rem;
-     padding: 1.5rem;
-     background-color: white
- }
-
- /* now adding thr famous qoute into the box  */
- .Quotes {
-
-     font-size: xx-large;
-     text-align: center;
-
-     width: 90%;
-     padding: 1.5rem;
-     font-style: italic;
-     color: black;
-     background-color: white;
-     text-align: center;
-
-     border: 5px solid black;
-     padding: 50px;
-     margin: 20px;
- }
-
- /* now displaying the heading of the video in the center  */
-
- h6 {
-     color: black;
-     text-align: center;
-     font-size: xx-large;
  }
