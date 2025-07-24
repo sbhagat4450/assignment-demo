@@ -80,7 +80,7 @@
  }
 
  /* now adding thr famous qoute into the box  */
- h5 {
+ .Quotes {
 
      font-size: xx-large;
      text-align: center;
@@ -95,4 +95,12 @@
      border: 5px solid black;
      padding: 50px;
      margin: 20px;
+ }
+
+ /* now displaying the heading of the video in the center  */
+
+ h6 {
+     color: black;
+     text-align: center;
+     font-size: xx-large;
  }
