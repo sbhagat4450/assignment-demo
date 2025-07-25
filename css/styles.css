@@ -1,8 +1,7 @@
  /* sagar bhagat */
 
  /* colour selection for the background */
- /* Type selector */
- /* Styling the whole page body */
+
 
  body {
      max-width: max-content;
@@ -10,7 +9,7 @@
      margin: 10 center;
      padding: 2rem;
 
-     background-color: rgb(152, 152, 190);
+     background-color: rgb(186, 186, 204);
 
 
 
@@ -116,7 +115,7 @@
      }
 
 
-
+     /* now working for the aside section with  */
      aside {
          float: right;
          width: 30%;
@@ -126,13 +125,9 @@
 
      }
 
-     link {
-         text-align: top;
-
-     }
  }
 
-
+ /* now making the aside section on the top right side of the page  */
  aside {
      float: right;
      width: 30%;
@@ -140,12 +135,14 @@
      margin-bottom: -150rem;
  }
 
+ /* putting the whole content in a box  */
  html {
      border: solid;
      border-radius: 3px;
      margin: 15px;
  }
 
+ /* modifying the links with the size and alignment  */
  .Links {
      font-size: xx-large;
      text-align: right;
@@ -166,6 +163,7 @@
 
  }
 
+ /* putting the content in the table  */
  .Info {
      font-size: xx-large;
      text-align: auto;
@@ -174,11 +172,11 @@
      margin-bottom: 6rem;
      text-align: right;
      margin-left: 6px;
-     ;
 
 
  }
 
+ /* modifying the heading of the table  */
  .h8 {
      font-size: xx-large;
      text-align: center;
@@ -186,11 +184,13 @@
 
  }
 
+ /* modifying the content of contact that asks about the information */
  .Contact {
      margin-top: 15rem;
      margin-left: 15rem;
  }
 
+ /* alignying the footer as in the center  */
  footer {
      text-align: center;
      margin-bottom: 150rem;
